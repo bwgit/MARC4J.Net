@@ -15,7 +15,7 @@ namespace MARC4J.Net.MARC
             {
                 if (_instance == null)
                 {
-                    _instance = Activator.CreateInstance<DefaultMarcFactory>();
+                    _instance = Activator.CreateInstance<SortedMarcFactory>();
                 }
                 return _instance;
             }
